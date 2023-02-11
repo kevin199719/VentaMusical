@@ -22,6 +22,7 @@ namespace VentaMusical.Controllers
         }
 
         // GET: Users2
+        [Authorize(Roles = "1")]
         public async Task<IActionResult> Index()
         {
             var users = await _context.Users.Where(x => x.UserState == true).ToListAsync();
@@ -31,6 +32,7 @@ namespace VentaMusical.Controllers
         }
 
         // GET: Users2/Details/5
+        [Authorize(Roles = "1")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Users == null)
@@ -49,6 +51,7 @@ namespace VentaMusical.Controllers
         }
 
         // GET: Users2/Create
+        [Authorize(Roles = "1")]
         public IActionResult Create()
         {
             return View();
