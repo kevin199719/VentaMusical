@@ -1,0 +1,38 @@
+************* Si se hace en Visual 2022 (.net7) ************
+***Scaffold(Traerse la base de datos)***
+Scaffold-DbContext "Server=SERVIDOR;Database=NOMBREDEBASEDEDATOS;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Server=FUNDA-I7-05\MSSQLSERVER01;Database=VentaMusical;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+***En appsettings.json***
+"ConnectionStrings": {
+    "AQUIVAELNOMBREDELCONTEXT": "Server=AQUIELSTRINGDECONEXIONDELABD"
+  }
+"ConnectionStrings": {
+    "VentaMusicalContext": "Server=FUNDA-I7-05\MSSQLSERVER01;Database=VentaMusical;Trusted_Connection=True;TrustServerCertificate=True"
+  }
+
+***En el context cambio el OnConfiguring por:***
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("AQUIVAELNOMBREDELCONTEXT");
+            optionsBuilder.UseSqlServer(connectionString);
+        }
+
+***En el program.cs se agrega un servicio:***
+var connectionString = builder.Configuration.GetConnectionString("AQUIVAELNOMBREDELCONTEXT");
+builder.Services.AddDbContext<AQUIVAELNOMBREDELCONTEXT>(x => x.UseSqlServer(connectionString));
+
+
+***Si se hacen cambios en BD o se necesita actualizar algo (como crear tabla nueva... etc)2***
+-Se puede forzar otro scaffold y traerse todo de nuevo desde la BD(No recomendado):
+Scaffold-DbContext "Server=AQUIELSTRINGDECONEXIONDELABD" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+-La mejor práctica, hacer uso solo una única vez el databaseFirst y luego utilizar CodeFirst para
+todos los cambios nuevos:
+Add-Migration InitialMigration
+Update-Database
