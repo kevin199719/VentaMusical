@@ -9,8 +9,6 @@ public partial class Albume
 
     public int AuthorId { get; set; }
 
-    public int SongId { get; set; }
-
     public string AlbumeName { get; set; } = null!;
 
     public DateTime AlbumeYear { get; set; }
@@ -19,5 +17,5 @@ public partial class Albume
 
     public virtual Author Author { get; set; } = null!;
 
-    public virtual Song Song { get; set; } = null!;
+    public virtual ICollection<Song> Songs { get; } = new List<Song>();
 }

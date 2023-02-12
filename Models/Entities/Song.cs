@@ -19,7 +19,9 @@ public partial class Song
 
     public bool SongState { get; set; }
 
-    public virtual ICollection<Albume> Albumes { get; } = new List<Albume>();
+    public int AlbumeId { get; set; }
+
+    public virtual Albume Albume { get; set; } = null!;
 
     public virtual Author Author { get; set; } = null!;
 

@@ -68,11 +68,6 @@ public partial class VentaMusicalContext : DbContext
                 .HasForeignKey(d => d.AuthorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Albume_Author");
-
-            entity.HasOne(d => d.Song).WithMany(p => p.Albumes)
-                .HasForeignKey(d => d.SongId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Albume_Song");
         });
 
         modelBuilder.Entity<Author>(entity =>
@@ -170,6 +165,11 @@ public partial class VentaMusicalContext : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.SongPrice).HasColumnType("decimal(18, 0)");
             entity.Property(e => e.SongYear).HasColumnType("date");
+
+            entity.HasOne(d => d.Albume).WithMany(p => p.Songs)
+                .HasForeignKey(d => d.AlbumeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Song_Albume");
 
             entity.HasOne(d => d.Author).WithMany(p => p.Songs)
                 .HasForeignKey(d => d.AuthorId)
