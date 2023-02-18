@@ -1,8 +1,113 @@
-﻿@model VentaMusical.Models.Entities.User
+﻿@model VentaMusical.Models.Entities.User;
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Editando Usuario</h3></div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="UserId" />
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required asp-for="UserName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="UserName" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Nombre Completo</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required asp-for="UserIdentification" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="UserIdentification" class="text-danger"></span>
+                                    <label for="UsuarioIdentificacion">Identificación</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input required asp-for="UserAlias" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly"/>
+                                    <span asp-validation-for="UserAlias" class="text-danger"></span>
+                                    <label for="UsuarioAlias">Alias Usuario</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required type="email" asp-for="UserEmail" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="UserEmail" class="text-danger"></span>
+                                    <label for="UsuarioCorreo">Correo</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+
+                                    <select name="UserGender" id="UserGender" class="form-control">
+                                        <option value="1" selected="selected">Masculino</option>
+                                        <option value="2">Femenino</option>
+                                    </select>
+
+                                    <label for="roles">Selecciona un Perfil:</label>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select name="Module" id="Module" class="form-control">
+                                        <option value="1">Administrador</option>
+                                        <option value="2" selected="selected">Cliente</option>
+                                    </select>
+
+                                    <label for="roles">Selecciona un Perfil:</label>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid"><input type="submit" value="Guardar Cambios" class="btn btn-primary btn-block" /></div>
+                        </div>
+                        <div>
+                            <a asp-action="Index">Regresar a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@*
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h1>Edit</h1>
 
@@ -50,5 +155,8 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+*@

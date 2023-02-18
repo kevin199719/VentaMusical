@@ -62,15 +62,15 @@ namespace VentaMusical.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,UserIdentification,UserName,UserGender,UserEmail,UserAlias")] User user,int Module, string Password)
+        public async Task<IActionResult> Create([Bind("UserId,UserIdentification,UserName,UserGender,UserEmail,UserAlias")] User user, int Module)
         {
             if (ModelState.IsValid)
             {
                 //Comprobar si existe pero esta de baja
                 //Comparar cedula para ver si existe
                 var queryIdentification = (from a in _context.Users
-                             where a.UserIdentification == user.UserIdentification
-                             select a).FirstOrDefault();
+                                           where a.UserIdentification == user.UserIdentification
+                                           select a).FirstOrDefault();
                 if (queryIdentification != null)
                 {
                     queryIdentification.UserState = true;
@@ -78,35 +78,48 @@ namespace VentaMusical.Controllers
                     //Guardar Cambios
                     await _context.SaveChangesAsync();
                 }
-                else {
-                    //añadir usuario
-                    user.UserState = true;
-                    _context.Add(user);
-                    await _context.SaveChangesAsync();
+                else
+                {
 
-                    //Traerse Id del usuario creado para ligarle roles y contraseña
-                    var query = (from a in _context.Users
-                                 where a.UserId == user.UserId
-                                 select a).FirstOrDefault();
+                    //Comprobar si ya un usuario tiene el mismo "Alias"
+                    var queryAlias = (from a in _context.Users
+                                      where a.UserAlias.ToUpper() == user.UserAlias.ToUpper()
+                                      select a).FirstOrDefault();
+                    if (queryAlias != null)
+                    {
+                        ModelState.AddModelError("UserAlias", "Ya existe un usuario con ese alias.");
+                        return View(user);
+                    }
+                    else
+                    {
+                        //añadir usuario
+                        user.UserState = true;
+                        _context.Add(user);
+                        await _context.SaveChangesAsync();
 
-                    //Añadir Perfil
-                    var userProfile = new Profile();
-                    userProfile.UserId = query.UserId;
-                    userProfile.ModuleId = Module;
-                    _context.Add(userProfile);
+                        //Traerse Id del usuario creado para ligarle roles y contraseña
+                        var query = (from a in _context.Users
+                                     where a.UserId == user.UserId
+                                     select a).FirstOrDefault();
 
-                    //Añadir Contraseña
-                    var userPass = new UserPassword();
-                    userPass.UserId = query.UserId;
-                    userPass.Password = Password;
-                    _context.Add(userPass);
+                        //Añadir Perfil
+                        var userProfile = new Profile();
+                        userProfile.UserId = query.UserId;
+                        userProfile.ModuleId = Module;
+                        _context.Add(userProfile);
 
-                    //Guardar Cambios
-                    await _context.SaveChangesAsync();
+                        //Añadir Contraseña
+                        var userPassGenerate = GenerateRandomPassword();
+                        var userPass = new UserPassword();
+                        userPass.UserId = query.UserId;
+                        userPass.Password = userPassGenerate;
+                        _context.Add(userPass);
+
+                        //Guardar Cambios
+                        await _context.SaveChangesAsync();
+                    }
+
                 }
-
-               
-
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
@@ -133,7 +146,7 @@ namespace VentaMusical.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserIdentification,UserName,UserGender,UserEmail,UserAlias")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserIdentification,UserName,UserGender,UserEmail,UserAlias")] User user, int Module)
         {
             if (id != user.UserId)
             {
@@ -144,7 +157,25 @@ namespace VentaMusical.Controllers
             {
                 try
                 {
-                    _context.Update(user);
+                    //Traerse Id del usuario creado para Modificar Perfil
+                    var query = (from a in _context.Users
+                                 where a.UserId == user.UserId
+                                 select a).FirstOrDefault();
+
+                    //Modificar Perfil
+                    var userProfile = new Profile();
+                    userProfile.UserId = query.UserId;
+                    userProfile.ModuleId = Module;
+                    _context.Update(userProfile);
+
+                    // Actualizar datos del usuario editados
+                    query.UserIdentification = user.UserIdentification;
+                    query.UserName = user.UserName;
+                    query.UserGender = user.UserGender;
+                    query.UserEmail = user.UserEmail;
+                    query.UserAlias = user.UserAlias;
+                    _context.Update(query);
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -204,6 +235,17 @@ namespace VentaMusical.Controllers
         private bool UserExists(int id)
         {
             return (_context.Users?.Any(e => e.UserId == id)).GetValueOrDefault();
+        }
+
+        public string GenerateRandomPassword()
+        {
+            const string validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+            Random random = new Random();
+            string password = new string(
+                Enumerable.Repeat(validChars, 8)
+                          .Select(s => s[random.Next(s.Length)])
+                          .ToArray());
+            return password;
         }
     }
 }

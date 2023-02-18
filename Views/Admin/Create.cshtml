@@ -15,14 +15,14 @@
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="UserName" class="form-control" />
+                                    <input required asp-for="UserName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
                                     <span asp-validation-for="UserName" class="text-danger"></span>
                                     <label for="UsuarioNombre">Nombre Completo</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="UserIdentification" class="form-control" />
+                                    <input required asp-for="UserIdentification" class="form-control" oninput="this.value = this.value.toUpperCase()" />
                                     <span asp-validation-for="UserIdentification" class="text-danger"></span>
                                     <label for="UsuarioIdentificacion">Identificación</label>
                                 </div>
@@ -32,14 +32,14 @@
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input required asp-for="UserAlias" class="form-control" />
+                                    <input required asp-for="UserAlias" class="form-control" oninput="this.value = this.value.toUpperCase()"/>
                                     <span asp-validation-for="UserAlias" class="text-danger"></span>
                                     <label for="UsuarioAlias">Alias Usuario</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required type="email" asp-for="UserEmail" class="form-control" />
+                                    <input required type="email" asp-for="UserEmail" class="form-control" oninput="this.value = this.value.toUpperCase()"/>
                                     <span asp-validation-for="UserEmail" class="text-danger"></span>
                                     <label for="UsuarioCorreo">Correo</label>
                                 </div>
@@ -67,14 +67,6 @@
 
                                     <label for="roles">Selecciona un Perfil:</label>
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input required type="password" name="Password" id="Password" class="form-control" />
-                                    <label for="UsuarioTelefono">Contraseña</label>
                                 </div>
                             </div>
                         </div>
