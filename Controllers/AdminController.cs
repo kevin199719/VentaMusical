@@ -12,7 +12,7 @@ using System.Data;
 
 namespace VentaMusical.Controllers
 {
-    public class AdminController : Controller
+    public class AdminController : Controller  
     {
         private readonly VentaMusicalContext _context;
 
