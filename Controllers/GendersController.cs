@@ -118,7 +118,7 @@ namespace VentaMusical.Controllers
                     var query = (from a in _context.Genders
                                  where a.GenderId == gender.GenderId
 								 select a).FirstOrDefault();
-
+                    // modifica
                     var newGender = new Gender();
                    newGender.GenderDescription = query.GenderDescription;
                     
