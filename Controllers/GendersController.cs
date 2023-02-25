@@ -123,7 +123,7 @@ namespace VentaMusical.Controllers
                    newGender.GenderDescription = query.GenderDescription;
                     
                     _context.Update(newGender);
-
+                    //actualizar
                     query.GenderDescription = gender.GenderDescription;
                     _context.Update(query);
 
