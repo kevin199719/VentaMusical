@@ -1,0 +1,40 @@
+﻿@model VentaMusical.Models.Entities.Gender
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Desea eliminar el usuario?</h3></div>
+                <div class="card-body">
+                    <form asp-action="Delete">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="GenderId" readonly="readonly" />
+
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required asp-for="GenderDescription" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
+                                    <span asp-validation-for="GenderDescription" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Genero</label>
+                                </div>
+                            </div>
+                            
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid"><input type="submit" value="Eliminar Genero" class="btn btn-danger btn-block" /></div>
+                        </div>
+                        <div>
+                            <a asp-action="Index">Regresar a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
