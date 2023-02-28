@@ -10614,24 +10614,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pruebas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alexa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\VentaMusical.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\VentaMusical.csproj",
       "projectName": "VentaMusical",
-      "projectPath": "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\VentaMusical.csproj",
-      "packagesPath": "C:\\Users\\Pruebas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\obj\\",
+      "projectPath": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\VentaMusical.csproj",
+      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Pruebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10639,7 +10634,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10700,7 +10694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
