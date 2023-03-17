@@ -9,105 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VentaMusical
 build_property.RootNamespace = VentaMusical
-build_property.ProjectDir = C:\Users\alexa\source\repos\VentaMusical\
+build_property.ProjectDir = C:\Users\Kevin\Desktop\venta\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alexa\source\repos\VentaMusical
+build_property.MSBuildProjectDirectory = C:\Users\Kevin\Desktop\venta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Access/AccessDenied.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Access/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Access/Login.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Admin/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Admin/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Admin/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Admin/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Admin/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Clients/IndexClients.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Clients/IndexClients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleENsaWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Genders/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Genders/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Genders/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Genders/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Genders/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Shared/Error.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Shared/LayoutClient.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/LayoutClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dENsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Users2/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Users2/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Users2/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Users2/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Users2/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/_ViewImports.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/_ViewStart.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alexa/source/repos/VentaMusical/Views/Shared/_Layout.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rnzpgyv6r2

@@ -10614,19 +10614,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\VentaMusical.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
       "projectName": "VentaMusical",
-      "projectPath": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\VentaMusical.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\source\\repos\\VentaMusical\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Desktop\\venta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
