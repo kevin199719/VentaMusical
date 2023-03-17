@@ -44,6 +44,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kevin/Desktop/venta/Views/Clients/IndexClients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleENsaWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
