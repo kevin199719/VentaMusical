@@ -10614,19 +10614,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emicasasola\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emicasasola\\Source\\Repos\\VentaMusical\\VentaMusical.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
       "projectName": "VentaMusical",
-      "projectPath": "C:\\Users\\emicasasola\\Source\\Repos\\VentaMusical\\VentaMusical.csproj",
-      "packagesPath": "C:\\Users\\emicasasola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emicasasola\\Source\\Repos\\VentaMusical\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Desktop\\venta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emicasasola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10694,7 +10694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
