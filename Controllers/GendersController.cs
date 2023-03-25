@@ -80,7 +80,7 @@ namespace VentaMusical.Controllers
                     }
                     
             }
-            return View(gender);
+            return RedirectToAction("Index", "Genders");
         }
 
         // GET: Genders/Edit/5
