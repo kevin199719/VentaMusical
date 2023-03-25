@@ -1,10 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
-  "dgSpecHash": "Spi0BAJQp5GmN2CjvulD/vl7qkgTI8+mPnwMAdTwariN+7F8T4v8YOE362v1CHj9ZLiACt/DJqHIoKk/h+gUtQ==",
-=======
-  "dgSpecHash": "O9SfUreVlhITUZB9dKvs2ffEcyieTG9v+nhS8mQRrFsBCv8lERlnocgHCJuPX/8DCkQoyhm3U/QSTYHD3Me75A==",
->>>>>>> origin/crudAlbumes
+  "dgSpecHash": "aB5hRdA0XlvRKwkTnJ7dw4zseuJ2agRSzZeuxykCzoGXYxrjx3LyXjjywVN0IY4ImA5cG4jY0FvaiJPV6pGqDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
   "expectedPackageFiles": [
@@ -190,6 +187,10 @@
     "C:\\Users\\Pruebas\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
 =======
+  "dgSpecHash": "O9SfUreVlhITUZB9dKvs2ffEcyieTG9v+nhS8mQRrFsBCv8lERlnocgHCJuPX/8DCkQoyhm3U/QSTYHD3Me75A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
+  "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -370,7 +371,7 @@
     "C:\\Users\\Kevin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
->>>>>>> origin/crudAlbumes
+>>>>>>> origin/CrudAutores
   ],
   "logs": []
 }

@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\VentaMusical.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
+        "projectName": "VentaMusical",
+        "projectPath": "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\VentaMusical.csproj",
+        "packagesPath": "C:\\Users\\Pruebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pruebas\\Desktop\\ProyectoRepositorio\\obj\\",
+=======
     "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj": {}
   },
   "projects": {
@@ -12,9 +25,15 @@
         "projectPath": "C:\\Users\\Kevin\\Desktop\\venta\\VentaMusical.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kevin\\Desktop\\venta\\obj\\",
+>>>>>>> origin/CrudAutores
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\Pruebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin/CrudAutores
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
