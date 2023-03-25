@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VentaMusical.Data;
 using VentaMusical.Models.Entities;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace VentaMusical.Controllers
 {
@@ -62,6 +63,8 @@ namespace VentaMusical.Controllers
         {
             if (ModelState.IsValid)
             {
+                
+                author.AuthorState = true;
                 _context.Add(author);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -101,6 +104,7 @@ namespace VentaMusical.Controllers
             {
                 try
                 {
+                    author.AuthorState = true;
                     _context.Update(author);
                     await _context.SaveChangesAsync();
                 }
