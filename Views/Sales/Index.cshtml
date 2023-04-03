@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Sales";
+    Layout = "~/Views/Shared/LayoutClient.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/sales.js"></script>
+}
+
+<style>
+    .col-lg-2 {
+        max-width: 300px !important;
+        max-height: 400px !important;
+    }
+
+    .titulo {
+        font-size: 16px;
+    }
+
+    .descripSong {
+        font-size: 14px;
+    }
+</style>
+
+<div class="container-xl px-4 mt-4">
+    <!-- Knowledge base home header option-->
+    <header class="card card-waves">
+        <div class="card-body">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6">
+                    <h1 class="text-primary">Tus canciones favoritas</h1>
+                    <p class="lead mb-4">¡En un solo lugar! Selecciona, añade a tu carrito y recibe tus canciones</p>
+                </div>
+                <div class="col-lg-4"><img class="img-fluid" src="~/assets/img/ventasheader.png" style="max-width: 70%"></div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="container-xl px-4 mt-4">
+    <div class="row">
+        <div class="col-xl-12">
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header">Filtrar</div>
+                <div class="card-body">
+                    <form>
+                        <!-- Form Row-->
+                        <div class="row gx-3 mb-3">
+                            <div class="col-md-3">
+                                <label class="small mb-1" for="Name">Nombre</label>
+                                <input class="form-control" id="Name" type="text" placeholder="Nombre de la canción" value="" />
+                            </div>
+                            <div class="col-md-3">
+                                <label class="small mb-1" for="Albume">Albume</label>
+                                <input class="form-control" id="Albume" type="text" placeholder="Nombre de el Albume" value="" />
+                            </div>
+                            <div class="col-md-3">
+                                <label class="small mb-1" for="Autor">Autor</label>
+                                <input class="form-control" id="Autor" type="text" placeholder="Nombre de el Autor" value="" />
+                            </div>
+                            <div class="col-md-3">
+                                <label class="small mb-1" for="Genero">Género</label>
+                                <input class="form-control" id="Genero" type="text" placeholder="Nombre del Género" value="" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-xl px-4">
+    <div id="songRow" class="row">
+        <div class="col-lg-2">
+            <!-- Illustration card example-->
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <img class="img-fluid mb-5" src="~/assets/img/cd_music.png" style="max-width: 50%">
+                    <h4 id="songName">Name</h4>
+                    <p id="songDesc" class="mb-4">Description</p>
+                    <button id="addSong" class="btn btn-primary p-3">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pagination">
+</div>
+
+<div class="datatable-bottom">
+    <div class="datatable-info">Mostrando 10 de ...</div>
+    <div id="paginationButtons" class="datatable-pagination">
+    </div>
+</div>
