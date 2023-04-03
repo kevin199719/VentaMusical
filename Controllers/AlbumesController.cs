@@ -29,6 +29,8 @@ namespace VentaMusical.Controllers
         }
 
         // GET: Albumes/Details/5
+
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Albumes == null)
@@ -37,7 +39,6 @@ namespace VentaMusical.Controllers
             }
 
             var albume = await _context.Albumes
-                .Include(a => a.Author)
                 .FirstOrDefaultAsync(m => m.AlbumeId == id);
             if (albume == null)
             {
@@ -50,7 +51,7 @@ namespace VentaMusical.Controllers
         // GET: Albumes/Create
         public IActionResult Create()
         {
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId", "AuthorId");
+            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId");
             return View();
         }
 
@@ -63,6 +64,8 @@ namespace VentaMusical.Controllers
         {
             if (ModelState.IsValid)
             {
+
+
                 var queryAlbumId = (from a in _context.Albumes
                                     where a.AlbumeId == albume.AlbumeId
                                     select a).FirstOrDefault();
@@ -78,8 +81,7 @@ namespace VentaMusical.Controllers
                     await _context.SaveChangesAsync();
                 }
             }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId", "AuthorId", albume.AuthorId);
-            return View(albume);
+            return RedirectToAction("Index", "Albumes");
         }
 
         // GET: Albumes/Edit/5
