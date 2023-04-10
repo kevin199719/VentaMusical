@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "NGw/y/lQxj54B+JInkCx9XiRweT95LSXOqtC8Lkerns+ARsB3YXtTvCNLnIyJy6cVfI3P3aW5rmsab3eOuoZvg==",
-=======
   "dgSpecHash": "yJlLelE1DFUGMxDSvHNgqvR/hZpHtfWbgqQFTh6Ddx5Mdy9Cydq27sO28xI9ulOqnrvxPn/1WUm6Q9vFBgdqWQ==",
->>>>>>> 0a03d8cc0b9713b4a31edcffd499fee60b907fce
   "success": true,
-  "projectFilePath": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
+  "projectFilePath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pruebas\\.nuget\\packages\\alertifyjs\\1.13.1\\alertifyjs.1.13.1.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -190,5 +186,12 @@
     "C:\\Users\\Pruebas\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

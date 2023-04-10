@@ -548,6 +548,7 @@ C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\
 C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\VentaMusical.pdb
 C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\VentaMusical.genruntimeconfig.cache
 C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\ref\VentaMusical.dll
+<<<<<<< Updated upstream
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\bin\Debug\net7.0\appsettings.json
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\bin\Debug\net7.0\VentaMusical.staticwebassets.runtime.json
@@ -823,3 +824,5 @@ C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoReposito
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\VentaMusical.pdb
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\VentaMusical.genruntimeconfig.cache
 C:\Users\Pruebas\Desktop\Nueva carpeta\Proyecto Progra Avanzada\ProyectoRepositorio\obj\Debug\net7.0\ref\VentaMusical.dll
+=======
+>>>>>>> Stashed changes
