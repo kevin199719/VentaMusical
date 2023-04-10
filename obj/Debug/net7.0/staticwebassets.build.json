@@ -1,14 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "ABHWoKc8Ssqvm5BUuSqjICHZBE32Ds/oxSVeCjdlUXE=",
-=======
-<<<<<<< Updated upstream
-  "Hash": "ul4VLIBohxQfAHo2XNczNQW5AvQHyHXTa3pc6YvUS0o=",
-=======
-  "Hash": "ivcYOPpe0A1S94i3kky9qdqdn8ePeeL1IcIxa3TJH2c=",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
   "Source": "VentaMusical",
   "BasePath": "_content/VentaMusical",
   "Mode": "Default",
@@ -18,39 +10,17 @@
     {
       "Name": "VentaMusical\\wwwroot",
       "Source": "VentaMusical",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css",
       "SourceId": "VentaMusical",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "VentaMusical.styles.css",
       "AssetKind": "All",
@@ -61,22 +31,6 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css"
-=======
-<<<<<<< Updated upstream
-      "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css"
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
-    },
-    {
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VentaMusical.bundle.scp.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Computed",
-<<<<<<< HEAD
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-=======
       "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\bundle\\VentaMusical.styles.css"
     },
     {
@@ -84,8 +38,6 @@
       "SourceId": "VentaMusical",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "VentaMusical.bundle.scp.css",
       "AssetKind": "All",
@@ -96,22 +48,6 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VentaMusical.bundle.scp.css"
-=======
-<<<<<<< Updated upstream
-      "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VentaMusical.bundle.scp.css"
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
-    },
-    {
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-area-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-<<<<<<< HEAD
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
       "OriginalItemSpec": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VentaMusical.bundle.scp.css"
     },
     {
@@ -119,8 +55,6 @@
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "assets/demo/chart-area-demo.js",
       "AssetKind": "All",
@@ -134,24 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-area-demo.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-bar-demo.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-bar-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-bar-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "assets/demo/chart-bar-demo.js",
       "AssetKind": "All",
@@ -165,24 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-bar-demo.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-pie-demo.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-pie-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\chart-pie-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "assets/demo/chart-pie-demo.js",
       "AssetKind": "All",
@@ -196,24 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-pie-demo.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\datatables-demo.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\datatables-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\demo\\datatables-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "assets/demo/datatables-demo.js",
       "AssetKind": "All",
@@ -227,12 +119,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\datatables-demo.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\cd_music.png",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\cd_music.png",
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
@@ -252,17 +139,7 @@
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\error-404-monochrome.svg",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\error-404-monochrome.svg",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "assets/img/error-404-monochrome.svg",
       "AssetKind": "All",
@@ -276,12 +153,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\error-404-monochrome.svg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\ventasHeader.png",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\assets\\img\\ventasHeader.png",
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
@@ -301,17 +173,7 @@
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\css\\site.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\css\\site.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -325,24 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\css\\styles.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\css\\styles.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\css\\styles.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -356,24 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\favicon.ico",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\favicon.ico",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\favicon.ico",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -387,24 +221,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\datatables-simple-demo.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\datatables-simple-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\datatables-simple-demo.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "js/datatables-simple-demo.js",
       "AssetKind": "All",
@@ -418,12 +238,7 @@
       "OriginalItemSpec": "wwwroot\\js\\datatables-simple-demo.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\Sales.js",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\Sales.js",
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
@@ -443,17 +258,7 @@
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\scripts.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\scripts.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -467,24 +272,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\site.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\site.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\js\\site.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -498,24 +289,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -529,24 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -560,24 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -591,24 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -622,24 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -653,24 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -684,24 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -715,24 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -746,24 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -777,24 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -808,24 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -839,24 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -870,24 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -901,24 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -932,24 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -963,24 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -994,24 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1025,24 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1056,24 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1087,24 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1118,24 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1149,24 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1180,24 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1211,24 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1242,24 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1273,24 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1304,24 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1335,24 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1366,24 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1397,24 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1428,24 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1459,24 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1490,24 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1521,24 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1552,24 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1583,24 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1614,24 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1645,24 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1676,24 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1707,24 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1738,24 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1769,24 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1800,24 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1831,24 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1862,24 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1893,24 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1924,24 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1955,24 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1986,24 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2017,24 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2048,24 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2079,24 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2110,24 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2141,24 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2172,24 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2203,24 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2234,24 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "VentaMusical",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "VentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\wwwroot\\",
->>>>>>> Stashed changes
->>>>>>> 1da05f6c722d0710401412a50766be4b3845d137
       "BasePath": "_content/VentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
