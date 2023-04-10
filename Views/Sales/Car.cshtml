@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Sales";
+    Layout = "~/Views/Shared/LayoutClient.cshtml";
+}
+
+@section scripts {
+    <script src="~/js/sales.js"></script>
+}
+
+<style>
+    .paymentContainer {
+        margin: 20px;
+    }
+</style>
+
+<header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+    <div class="container-xl px-4">
+        <div class="page-header-content pt-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto mt-4">
+                    <h1 class="page-header-title">
+                        <div class="page-header-icon"><i data-feather="bar-chart"></i></div>
+                        Tu música a un solo clic
+                    </h1>
+                    <div class="page-header-subtitle">Selecciona la targeta con la que deseas pagar y listo</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="row paymentContainer">
+    <div class="col-xl-7">
+        <div class="card mb-4">
+            <div class="card-body">
+                <!-- Invoice table-->
+                <div class="table-responsive">
+                    <table id="invoice" class="table table-borderless mb-1">
+                        <thead class="border-bottom">
+                            <tr class="small text-uppercase text-muted">
+                                <th scope="col">Descripción</th>
+                                <th class="text-end" scope="col">Precio</th>
+                                <th class="text-end" scope="col">IVA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @*<!-- Invoice item 1-->
+                            <tr class="border-bottom">
+                            <td>
+                            <div id="SongName" class="fw-bold">SB Admin Pro</div>
+                            <div id="SongDescript" class="small text-muted d-none d-md-block">A professional UI toolkit for designing admin dashboards and web applications</div>
+                            </td>
+                            <td id="SongPrice" class="text-end fw-bold">$50.00</td>
+                            <td id="SongIVA" class="text-end fw-bold">$600.00</td>
+                            </tr>
+                            <!-- Invoice subtotal-->
+                            <tr>
+                            <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">Subtotal:</div></td>
+                            <td class="text-end pb-0"><div id="Subtotal" class="h5 mb-0 fw-700">$,1925.00</div></td>
+                            </tr>
+                            <!-- Invoice tax column-->
+                            <tr>
+                            <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">IVA (13%):</div></td>
+                            <td class="text-end pb-0"><div id="TotalIVA" class="h5 mb-0 fw-700">$134.75</div></td>
+                            </tr>
+                            <!-- Invoice total-->
+                            <tr>
+                            <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">Total:</div></td>
+                            <td class="text-end pb-0"><div id="TotalFinal" class="h5 mb-0 fw-700 text-green">$2059.75</div></td>
+                            </tr>*@
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-5">
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-file-invoice-dollar me-1"></i>
+                Check Out
+            </div>
+            <div class="card-body">
+                <div class="text-uppercase small fw-700 text-muted">Titular Tarjeta:</div>
+                <div id="Titular" class=" mb-0 fw-700 text-green"></div><br />
+                <div class="text-uppercase small fw-700 text-muted">Correo:</div>
+                <div id="Email" class=" mb-0 fw-700 text-green"></div><br />
+                <div class="text-uppercase small fw-700 text-muted">Numero Tarjeta:</div>
+                <div id="CardNumber" class=" mb-0 fw-700 text-green"></div><br />
+                <div class="text-uppercase small fw-700 text-muted">Expira:</div>
+                <div id="CardExp" class=" mb-0 fw-700 text-green"></div><br />
+                <div class="text-uppercase small fw-700 text-muted">Tipo Tarjeta:</div>
+                <div id="CardType" class=" mb-0 fw-700 text-green"></div>
+            </div>
+            <div class="card-footer">
+                <button hidden id="addCard" class="btn btn-secondary" asp-controller="Clients" asp-action="Index">Añadir tarjeta <i class="fas fa-credit-card fa-fw"></i></button>
+                <button id="payInvoice" class="btn btn-primary" onclick="">Pagar <i class="fas fa-credit-card fa-fw"></i></button>
+            </div>
+        </div>
+    </div>
+</div>

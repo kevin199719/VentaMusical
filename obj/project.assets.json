@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AlertifyJS/1.13.1": {
+        "type": "package"
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -3665,6 +3668,35 @@
     }
   },
   "libraries": {
+    "AlertifyJS/1.13.1": {
+      "sha512": "lJyjcEN++TZP+U1jpNSMEBCI53hsNvexvAEOwo2+W4BjRAq81ElX0cRCgbfHPMKGauvXVPvlo6aAio4tJumy7w==",
+      "type": "package",
+      "path": "alertifyjs/1.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alertifyjs.1.13.1.nupkg.sha512",
+        "alertifyjs.nuspec",
+        "content/Content/alertifyjs/alertify.css",
+        "content/Content/alertifyjs/alertify.min.css",
+        "content/Content/alertifyjs/alertify.rtl.css",
+        "content/Content/alertifyjs/alertify.rtl.min.css",
+        "content/Content/alertifyjs/themes/bootstrap.css",
+        "content/Content/alertifyjs/themes/bootstrap.min.css",
+        "content/Content/alertifyjs/themes/bootstrap.rtl.css",
+        "content/Content/alertifyjs/themes/bootstrap.rtl.min.css",
+        "content/Content/alertifyjs/themes/default.css",
+        "content/Content/alertifyjs/themes/default.min.css",
+        "content/Content/alertifyjs/themes/default.rtl.css",
+        "content/Content/alertifyjs/themes/default.rtl.min.css",
+        "content/Content/alertifyjs/themes/semantic.css",
+        "content/Content/alertifyjs/themes/semantic.min.css",
+        "content/Content/alertifyjs/themes/semantic.rtl.css",
+        "content/Content/alertifyjs/themes/semantic.rtl.min.css",
+        "content/Scripts/alertify.js",
+        "content/Scripts/alertify.min.js"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -10606,6 +10638,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AlertifyJS >= 1.13.1",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
@@ -10620,11 +10653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
+      "projectUniqueName": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
       "projectName": "VentaMusical",
-      "projectPath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
+      "projectPath": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
       "packagesPath": "C:\\Users\\Pruebas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\",
+      "outputPath": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10658,6 +10691,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AlertifyJS": {
+            "target": "Package",
+            "version": "[1.13.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.3, )"

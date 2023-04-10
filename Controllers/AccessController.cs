@@ -92,7 +92,7 @@ namespace VentaMusical.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("IndexClients", "Clients");
+                    return RedirectToAction("Index", "Sales");
                 }
 
 
