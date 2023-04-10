@@ -1,54 +1,79 @@
 ﻿@model IEnumerable<VentaMusical.Models.Entities.Albume>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Gestor Administrativo";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumeName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumeYear)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumeState)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Author)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumeName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumeYear)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumeState)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Author.AuthorId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.AlbumeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.AlbumeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.AlbumeId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Albumes Activos
+        </div>
+        <div class="container-sm">
+            <button type="button" class="btn btn-primary" onclick="location.href= '@Url.Action("Create", "Genders")'">
+                Crear Albume
+            </button>
+        </div>
+
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>Albume</th>
+                        <th>Año de lanzamiento</th>
+                        <th>Autor</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Albume</th>
+                        <th>Año de lanzamiento</th>
+                        <th>Autor</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AlbumeName)
+                            </td>
+                            <td>
+                                @item.AlbumeYear.ToString("dd/MM/yyyy")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Author.AuthorName)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.AlbumeId"><i class="bi bi-pencil-square"></i></a>
+                                @*<a asp-action="Details" asp-route-id="@item.UsuarioId">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.UsuarioId">Delete</a>*@
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@item.AlbumeId"><i style="color:orangered" class="bi bi-trash3-fill"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

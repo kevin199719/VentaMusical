@@ -4,47 +4,60 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Editando Albume</h3></div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="AlbumeId" />
 
-<h1>Edit</h1>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required asp-for="AlbumeName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="AlbumeName" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Nombre Albume</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input type="date" required asp-for="AlbumeYear" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="AlbumeYear" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Año Lanzamiento</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select id="AuthorId" required asp-for="AuthorId" asp-items="@ViewBag.Authors" class="form-control" oninput="this.value = this.value.toUpperCase()">
+                                        <option value="">Seleccione un autor</option>
+                                    </select>
+                                    <span asp-validation-for="Author.AuthorName" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Nombre Autor</label>
+                                </div>
+                            </div>
+                        </div>
 
-<h4>Albume</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="AlbumeId" />
-            <div class="form-group">
-                <label asp-for="AuthorId" class="control-label"></label>
-                <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
-                <span asp-validation-for="AuthorId" class="text-danger"></span>
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid"><input type="submit" value="Guardar Cambios" class="btn btn-primary btn-block" /></div>
+                        </div>
+                        <div>
+                            <a asp-action="Index">Regresar a la lista</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="AlbumeName" class="control-label"></label>
-                <input asp-for="AlbumeName" class="form-control" />
-                <span asp-validation-for="AlbumeName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="AlbumeYear" class="control-label"></label>
-                <input asp-for="AlbumeYear" class="form-control" />
-                <span asp-validation-for="AlbumeYear" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="AlbumeState" /> @Html.DisplayNameFor(model => model.AlbumeState)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
