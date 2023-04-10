@@ -24,7 +24,6 @@
         font-size: 14px;
     }
 </style>
-
 <div class="container-xl px-4 mt-4">
     <!-- Knowledge base home header option-->
     <header class="card card-waves">
@@ -51,20 +50,20 @@
                         <!-- Form Row-->
                         <div class="row gx-3 mb-3">
                             <div class="col-md-3">
-                                <label class="small mb-1" for="Name">Nombre</label>
-                                <input class="form-control" id="Name" type="text" placeholder="Nombre de la canción" value="" />
+                                <label class="small mb-1" for="SongName">Nombre</label>
+                                <input class="form-control" id="SongName" type="text" placeholder="Nombre de la canción" value="" />
                             </div>
                             <div class="col-md-3">
-                                <label class="small mb-1" for="Albume">Albume</label>
-                                <input class="form-control" id="Albume" type="text" placeholder="Nombre de el Albume" value="" />
+                                <label class="small mb-1" for="AlbumeName">Albume</label>
+                                <input class="form-control" id="AlbumeName" type="text" placeholder="Nombre de el Albume" value="" />
                             </div>
                             <div class="col-md-3">
-                                <label class="small mb-1" for="Autor">Autor</label>
-                                <input class="form-control" id="Autor" type="text" placeholder="Nombre de el Autor" value="" />
+                                <label class="small mb-1" for="AuthorName">Autor</label>
+                                <input class="form-control" id="AuthorName" type="text" placeholder="Nombre de el Autor" value="" />
                             </div>
                             <div class="col-md-3">
-                                <label class="small mb-1" for="Genero">Género</label>
-                                <input class="form-control" id="Genero" type="text" placeholder="Nombre del Género" value="" />
+                                <label class="small mb-1" for="GenderDescription">Género</label>
+                                <input class="form-control" id="GenderDescription" type="text" placeholder="Nombre del Género" value="" />
                             </div>
                         </div>
                     </form>
@@ -95,7 +94,7 @@
 </div>
 
 <div class="datatable-bottom">
-    <div class="datatable-info">Mostrando 10 de ...</div>
+    <div  class="datatable-info"><p id="cantidad"></p></div>
     <div id="paginationButtons" class="datatable-pagination">
     </div>
 </div>

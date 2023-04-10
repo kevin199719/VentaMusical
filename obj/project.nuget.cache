@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZDnkONAS07PgxrPzESDsfdVw+FQTLulj9pxKzWJubI3viIfTbmnd3C+pRGBG4YPZqMq6tIV/AkLVhSM64vW/uw==",
+  "dgSpecHash": "yJlLelE1DFUGMxDSvHNgqvR/hZpHtfWbgqQFTh6Ddx5Mdy9Cydq27sO28xI9ulOqnrvxPn/1WUm6Q9vFBgdqWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pruebas\\.nuget\\packages\\alertifyjs\\1.13.1\\alertifyjs.1.13.1.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Pruebas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
