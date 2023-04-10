@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "NGw/y/lQxj54B+JInkCx9XiRweT95LSXOqtC8Lkerns+ARsB3YXtTvCNLnIyJy6cVfI3P3aW5rmsab3eOuoZvg==",
+=======
+  "dgSpecHash": "yJlLelE1DFUGMxDSvHNgqvR/hZpHtfWbgqQFTh6Ddx5Mdy9Cydq27sO28xI9ulOqnrvxPn/1WUm6Q9vFBgdqWQ==",
+>>>>>>> 0a03d8cc0b9713b4a31edcffd499fee60b907fce
   "success": true,
   "projectFilePath": "C:\\Users\\Pruebas\\Desktop\\Nueva carpeta\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
   "expectedPackageFiles": [
