@@ -58,7 +58,7 @@ public partial class VentaMusicalContext : DbContext
         {
             entity.ToTable("Albume");
 
-            entity.Property(e => e.AlbumeId).ValueGeneratedNever();
+            //entity.Property(e => e.AlbumeId).ValueGeneratedNever();
             entity.Property(e => e.AlbumeName)
                 .HasMaxLength(100)
                 .IsUnicode(false);
