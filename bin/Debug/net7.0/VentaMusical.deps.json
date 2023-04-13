@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "VentaMusical/1.0.0": {
         "dependencies": {
+          "AlertifyJS": "1.13.1",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
@@ -18,6 +19,7 @@
           "VentaMusical.dll": {}
         }
       },
+      "AlertifyJS/1.13.1": {},
       "Azure.Core/1.24.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
@@ -2281,6 +2283,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AlertifyJS/1.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJyjcEN++TZP+U1jpNSMEBCI53hsNvexvAEOwo2+W4BjRAq81ElX0cRCgbfHPMKGauvXVPvlo6aAio4tJumy7w==",
+      "path": "alertifyjs/1.13.1",
+      "hashPath": "alertifyjs.1.13.1.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",

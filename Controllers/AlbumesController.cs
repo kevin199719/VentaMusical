@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VentaMusical.Data;
+using VentaMusical.Models;
 using VentaMusical.Models.Entities;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace VentaMusical.Controllers
 {
@@ -22,10 +24,14 @@ namespace VentaMusical.Controllers
         // GET: Albumes
         public async Task<IActionResult> Index()
         {
-            var albumes = await _context.Albumes.Where(x => x.AlbumeState == true).ToListAsync();
-            return albumes != null ?
-                        View(albumes) :
-                        Problem("Entity set 'VentaMusicalContext.Users'  is null.");
+            //var albumes = await _context.Albumes.Where(x => x.AlbumeState == true).ToListAsync();
+            //return albumes != null ?
+            //            View(albumes) :
+            //            Problem("Entity set 'VentaMusicalContext.Users'  is null.");
+            var albums = _context.Albumes
+                .Include(a => a.Author).Where(a => a.AlbumeState == true)
+                .ToList();
+            return View(albums);
         }
 
         // GET: Albumes/Details/5
@@ -70,11 +76,12 @@ namespace VentaMusical.Controllers
                                     where a.AlbumeId == albume.AlbumeId
                                     select a).FirstOrDefault();
 
-                if (queryAlbumId != null )
+                if (queryAlbumId != null)
                 {
                     ModelState.AddModelError("AlbumId", "Ya existe un Album con este nombre");
                     return View(albume);
-                } else
+                }
+                else
                 {
                     albume.AlbumeState = true;
                     _context.Add(albume);
@@ -84,40 +91,49 @@ namespace VentaMusical.Controllers
             return RedirectToAction("Index", "Albumes");
         }
 
-        // GET: Albumes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Albumes == null)
-            {
-                return NotFound();
-            }
-
             var albume = await _context.Albumes.FindAsync(id);
             if (albume == null)
             {
                 return NotFound();
             }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId", "AuthorId", albume.AuthorId);
+
+            var authors = await _context.Authors.ToListAsync();
+            ViewBag.Authors = new SelectList(authors, "AuthorId", "AuthorName", albume.AuthorId);
+
             return View(albume);
         }
 
-        // POST: Albumes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AlbumeId,AuthorId,AlbumeName,AlbumeYear,AlbumeState")] Albume albume)
+        public async Task<IActionResult> Edit(int id, [Bind("AlbumeId,AuthorId,AlbumeName,AlbumeYear,AlbumeState")] AlbumeEdit albume)
         {
             if (id != albume.AlbumeId)
             {
                 return NotFound();
             }
 
+            albume.AlbumeState = true; // asignar el valor por defecto
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(albume);
+                    //Traerse Id del usuario creado para Modificar Perfil
+                    var query = (from a in _context.Albumes
+                                 where a.AlbumeId == albume.AlbumeId
+                                 select a).FirstOrDefault();
+
+                    
+
+                    // Actualizar datos del usuario editados
+                    query.AuthorId = albume.AuthorId;
+                    query.AlbumeName = albume.AlbumeName;
+                    query.AlbumeYear = albume.AlbumeYear;
+                    query.AlbumeState = albume.AlbumeState;
+                    _context.Update(query);
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -163,7 +179,7 @@ namespace VentaMusical.Controllers
         {
             if (_context.Albumes == null)
             {
-            
+
                 return Problem("Entity set 'VentaMusicalContext.Albumes'  is null.");
             }
             var albume = await _context.Albumes.FindAsync(id);
@@ -173,14 +189,14 @@ namespace VentaMusical.Controllers
                 albume.AlbumeState = false;
                 _context.Albumes.Update(albume);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AlbumeExists(int id)
         {
-          return (_context.Albumes?.Any(e => e.AlbumeId == id)).GetValueOrDefault();
+            return _context.Albumes.Any(e => e.AlbumeId == id);
         }
     }
 }

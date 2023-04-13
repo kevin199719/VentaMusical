@@ -1,12 +1,9 @@
-﻿@model VentaMusical.Models.Entities.Albume
+@model VentaMusical.Models.Entities.Albume
 
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-
-
 
 <div class="container">
     <div class="row justify-content-center">
@@ -64,5 +61,8 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
