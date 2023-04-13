@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-
+    $("#cart-badge").removeClass("cart-badge");
     getSongs();
     getInvoiceSongs();
     getUserCard();
@@ -126,6 +126,7 @@ function addSong(songId) {
         data: { songId: songId },
         success: function (result) {
             alertify.notify('<strong>Procesado exitosamente</strong> ¡Revisa tu carrito!', 'success', 15);
+            $("#cart-badge").addClass("cart-badge");
         },
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr.status);
@@ -147,7 +148,12 @@ function getInvoiceSongs() {
                 var td1 = $("<td>").append(name, description);
                 var td2 = $("<td>").attr("id", "SongPrice").addClass("text-end fw-bold").text("₡" + song.songPrice.toFixed(2));
                 var td3 = $("<td>").attr("id", "SongIVA").addClass("text-end fw-bold").text("₡" + song.iva.toFixed(2));
-                row.append(td1, td2, td3);
+                var td4 = $("<td>").addClass("text-end");
+                var deleteButton = $("<button>").addClass("btn btn-sm btn-danger").html('<i class="fas fa-trash" aria-hidden="true"></i>').click(function () {
+                    CleanItem(song.invoiceDetailId);
+                });
+                td4.append(deleteButton);
+                row.append(td1, td2, td3, td4);
                 $("#invoice tbody").append(row);
             });
 
@@ -195,7 +201,7 @@ function getUserCard() {
                 $("#CardType").text(result.cardName);
             } else {
                 alertify.warning("Usuario no tiene una tarjeta de pago registrada");
-                $("#payInvoice").prop("disabled", true); 
+                $("#payInvoice").prop("disabled", true);
                 $("#addCard").prop("hidden", false);
             }
         },
@@ -203,4 +209,43 @@ function getUserCard() {
             alert("Error retrieving songs.");
         }
     });
+}
+
+//Funcion quitar del carrito
+function CleanItem(invoiceDetailId) {
+    $.ajax({
+        url: "/Sales/CleanItem",
+        type: "POST",
+        data: { invoiceDetailId: invoiceDetailId },
+        success: function () {
+            alertify.success("Se quitó la canción exitosamente");
+                $("#invoice tbody").empty();
+                getInvoiceSongs();
+        },
+        error: function () {
+            alertify.error("Error al quitar la canción");
+        }
+    });
+}
+
+//Funcion pagar
+function PayInvoice() {
+    if ($("#TotalFinal").text() !== "₡0.00") {
+        $.ajax({
+            url: "/Sales/PayInvoice",
+            type: "GET",
+            success: function () {
+                alertify.alert("PAGO ÉXITOSO", "Factura pagada exitosamente, hemos enviado las canciones en formato .mp3 a tu correo", function () {
+                    window.location.href = "/Sales/Index";
+                });
+                $("#invoice tbody").empty();
+                getInvoiceSongs();
+            },
+            error: function () {
+                alertify.error("Error al realizar el pago");
+            }
+        });
+    } else {
+        alertify.warning("El carrito de compras se encuentra vacío");
+    }
 }

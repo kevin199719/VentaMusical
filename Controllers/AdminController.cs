@@ -57,6 +57,12 @@ namespace VentaMusical.Controllers
             return View();
         }
 
+        
+        public IActionResult CreateClient()
+        {
+            return View();
+        }
+
         // POST: Users2/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -124,6 +130,73 @@ namespace VentaMusical.Controllers
             }
             return View(user);
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateClient([Bind("UserId,UserIdentification,UserName,UserGender,UserEmail,UserAlias")] User user, int Module)
+        {
+            if (ModelState.IsValid)
+            {
+                //Comprobar si existe pero esta de baja
+                //Comparar cedula para ver si existe
+                var queryIdentification = (from a in _context.Users
+                                           where a.UserIdentification == user.UserIdentification
+                                           select a).FirstOrDefault();
+                if (queryIdentification != null)
+                {
+                    queryIdentification.UserState = true;
+                    _context.Users.Update(queryIdentification);
+                    //Guardar Cambios
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+
+                    //Comprobar si ya un usuario tiene el mismo "Alias"
+                    var queryAlias = (from a in _context.Users
+                                      where a.UserAlias.ToUpper() == user.UserAlias.ToUpper()
+                                      select a).FirstOrDefault();
+                    if (queryAlias != null)
+                    {
+                        ModelState.AddModelError("UserAlias", "Ya existe un usuario con ese alias.");
+                        return View(user);
+                    }
+                    else
+                    {
+                        //añadir usuario
+                        user.UserState = true;
+                        _context.Add(user);
+                        await _context.SaveChangesAsync();
+
+                        //Traerse Id del usuario creado para ligarle roles y contraseña
+                        var query = (from a in _context.Users
+                                     where a.UserId == user.UserId
+                                     select a).FirstOrDefault();
+
+                        //Añadir Perfil
+                        var userProfile = new Profile();
+                        userProfile.UserId = query.UserId;
+                        userProfile.ModuleId = Module;
+                        _context.Add(userProfile);
+
+                        //Añadir Contraseña
+                        var userPassGenerate = GenerateRandomPassword();
+                        var userPass = new UserPassword();
+                        userPass.UserId = query.UserId;
+                        userPass.Password = userPassGenerate;
+                        _context.Add(userPass);
+
+                        //Guardar Cambios
+                        await _context.SaveChangesAsync();
+                    }
+
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(user);
+        }
+
 
         // GET: Users2/Edit/5
         public async Task<IActionResult> Edit(int? id)

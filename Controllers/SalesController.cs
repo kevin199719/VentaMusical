@@ -48,5 +48,16 @@ namespace VentaMusical.Controllers
             UserCard card = SalesBLL.getUserCard(userId);
             return Json(card);
         }
+
+        public void CleanItem(int invoiceDetailId)
+        {
+            SalesBLL.CleanItem(invoiceDetailId);
+        }
+
+        public void PayInvoice()
+        {
+            int userId = HttpContext.Session.GetInt32("_Id") ?? 0;
+            int success = SalesBLL.PayInvoice(userId);
+        }
     }
 }
