@@ -10647,23 +10647,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pruebas\\.nuget\\packages\\": {},
+    "C:\\Users\\AlbertoSM\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
+      "projectUniqueName": "C:\\Users\\AlbertoSM\\Source\\Repos\\VentaMusical2\\VentaMusical.csproj",
       "projectName": "VentaMusical",
-      "projectPath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\VentaMusical.csproj",
-      "packagesPath": "C:\\Users\\Pruebas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pruebas\\Desktop\\Proyecto Progra Avanzada\\ProyectoRepositorio\\obj\\",
+      "projectPath": "C:\\Users\\AlbertoSM\\Source\\Repos\\VentaMusical2\\VentaMusical.csproj",
+      "packagesPath": "C:\\Users\\AlbertoSM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AlbertoSM\\Source\\Repos\\VentaMusical2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pruebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AlbertoSM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10737,7 +10737,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
