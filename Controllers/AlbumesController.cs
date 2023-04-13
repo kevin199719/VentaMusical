@@ -56,36 +56,26 @@ namespace VentaMusical.Controllers
         // GET: Albumes/Create
         public IActionResult Create()
         {
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId", "AuthorId");
+            ViewBag.Authors = new SelectList(_context.Authors, "AuthorId", "AuthorName");
             return View();
         }
 
-        // POST: Albumes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AlbumeId,AuthorId,AlbumeName,AlbumeYear,AlbumeState")] Albume albume)
+        public async Task<IActionResult> Create([Bind("AuthorId,AlbumeName,AlbumeYear")] Albume albume)
         {
-            if (ModelState.IsValid)
-            {
-                var queryAlbumId = (from a in _context.Albumes
-                                    where a.AlbumeId == albume.AlbumeId
-                                    select a).FirstOrDefault();
+            Albume alm = new Albume();
+            alm.AlbumeState = true;
+            alm.AuthorId = albume.AuthorId;
+            alm.AlbumeName = albume.AlbumeName;
+            alm.AlbumeYear =albume.AlbumeYear;
+            
+            _context.Add(alm);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
 
-                if (queryAlbumId != null)
-                {
-                    ModelState.AddModelError("AlbumId", "Ya existe un Album con este nombre");
-                    return View(albume);
-                }
-                else
-                {
-                    albume.AlbumeState = true;
-                    _context.Add(albume);
-                    await _context.SaveChangesAsync();
-                }
-            }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "AuthorId", "AuthorId", albume.AuthorId);
+
+            //ViewBag.Authors = new SelectList(_context.Authors, "AuthorId", "AuthorName", albume.AuthorId);
             return View(albume);
         }
 
