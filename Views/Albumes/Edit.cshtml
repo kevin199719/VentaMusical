@@ -4,12 +4,11 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-7">
             <div class="card shadow-lg border-0 rounded-lg mt-5">
-                <div class="card-header"><h3 class="text-center font-weight-light my-4">Editando Usuario</h3></div>
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Editando Albume</h3></div>
                 <div class="card-body">
                     <form asp-action="Edit">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -18,35 +17,31 @@
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="AlbumeId" class="form-control" oninput="this.value = this.value.toUpperCase()" />
-                                    <span asp-validation-for="AlbumeId" class="text-danger"></span>
-                                    <label for="UsuarioNombre">Id</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="form-floating mb-3 mb-md-0">
                                     <input required asp-for="AlbumeName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
                                     <span asp-validation-for="AlbumeName" class="text-danger"></span>
-                                    <label for="UsuarioNombre">Nombre del Albume</label>
+                                    <label for="UsuarioNombre">Nombre Albume</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input type="date" required asp-for="AlbumeYear" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="AlbumeYear" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Año Lanzamiento</label>
                                 </div>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="AlbumeYear" class="form-control" oninput="this.value = this.value.toUpperCase()" />
-                                    <span asp-validation-for="AlbumeYear" class="text-danger"></span>
-                                    <label for="UsuarioNombre">Año del Album</label>
+                                    <select id="AuthorId" required asp-for="AuthorId" asp-items="@ViewBag.Authors" class="form-control" oninput="this.value = this.value.toUpperCase()">
+                                        <option value="">Seleccione un autor</option>
+                                    </select>
+                                    <span asp-validation-for="Author.AuthorName" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Nombre Autor</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="form-floating mb-3 mb-md-0">
-                                <input class="form-check-input" asp-for="AlbumeState" /> @Html.DisplayNameFor(model => model.AlbumeState)
-                            </div>
-                        </div>
+
                         <div class="mt-4 mb-0">
                             <div class="d-grid"><input type="submit" value="Guardar Cambios" class="btn btn-primary btn-block" /></div>
                         </div>
@@ -65,4 +60,3 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
-

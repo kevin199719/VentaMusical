@@ -1,62 +1,56 @@
 @model IEnumerable<VentaMusical.Models.Entities.Albume>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Gestor Administrativo";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 <div class="container-fluid px-4">
-	<div class="card mb-4">
-		<div class="card-header">
-			<i class="fas fa-table me-1"></i>
-			Albumes
-		</div>
-		<div class="container-sm">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Albumes Activos
+        </div>
+        <div class="container-sm">
             <button type="button" class="btn btn-primary" onclick="location.href= '@Url.Action("Create", "Albumes")'">
-				Crear Album
-			</button>
-		</div>
+                Crear Albume
+            </button>
+        </div>
 
-		<div class="card-body">
-			<table id="datatablesSimple">
-				<thead>
-
-
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
                     <tr>
-                        <th>Nombre del Album</th>
-                        <th>Año del Album</th>
-                        <th>Estado del Album</th>
-                        <th>Autor del Album</th>
+                        <th>Albume</th>
+                        <th>Año de lanzamiento</th>
+                        <th>Autor</th>
                         <th>Editar</th>
                         <th>Eliminar</th>
+
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
-                        <th>Nombre del Album</th>
-                        <th>Año del Album</th>
-                        <th>Estado del Album</th>
-                        <th>Autor del Album</th>
+                        <th>Albume</th>
+                        <th>Año de lanzamiento</th>
+                        <th>Autor</th>
                         <th>Editar</th>
                         <th>Eliminar</th>
                     </tr>
                 </tfoot>
-				<tbody>
-					@foreach (var item in Model)
-					{
+                <tbody>
+                    @foreach (var item in Model)
+                    {
                         <tr>
                             <td>
                                 @Html.DisplayFor(modelItem => item.AlbumeName)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.AlbumeYear)
+                                @item.AlbumeYear.ToString("dd/MM/yyyy")
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.AlbumeState)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Author)
+                                @Html.DisplayFor(modelItem => item.Author.AuthorName)
                             </td>
                             <td>
                                 <a asp-action="Edit" asp-route-id="@item.AlbumeId"><i class="bi bi-pencil-square"></i></a>
@@ -73,4 +67,3 @@
         </div>
     </div>
 </div>
-

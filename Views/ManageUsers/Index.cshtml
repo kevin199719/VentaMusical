@@ -67,14 +67,16 @@
 							<div class="col-md-6">
 								<div class="form-floating mb-3 mb-md-0">
 									<div class="form-floating">
-										<input required asp-for="Card.CardId" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
-										<span asp-validation-for="Card.CardId" class="text-danger"></span>
+										<input required asp-for="Card.CardType" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
+										<span asp-validation-for="Card.CardType" class="text-danger"></span>
 										<label for="CardType">Tipo Tarjeta</label>
 									</div>
 
 
 								</div>
 							</div>
+						</div>
+						<div class="row mb-3">
 							<div class="col-md-6">
 								<div class="form-floating mb-3 mb-md-0">
 									<input required asp-for="Card.CardNumber" class="form-control" oninput="this.value = this.value.toUpperCase()" type="number" />
