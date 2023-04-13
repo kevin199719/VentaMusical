@@ -1,0 +1,158 @@
+﻿@model VentaMusical.ViewModels.UserViewModel;
+
+@{
+	ViewData["Title"] = "Edit";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-lg-7">
+			<div class="card shadow-lg border-0 rounded-lg mt-5">
+				<div class="card-header"><h3 class="text-center font-weight-light my-4">Editando Usuario</h3></div>
+				<div class="card-body">
+					<form asp-action="Edit">
+						<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+						<input type="hidden" asp-for="User.UserId" />
+						<input type="hidden" asp-for="Card.CardId" />
+						<input type="hidden" asp-for="Password.PasswordId" />
+
+						<div class="row mb-3">
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="User.UserName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+									<span asp-validation-for="User.UserName" class="text-danger"></span>
+									<label for="UsuarioNombre">Nombre Completo</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="User.UserIdentification" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
+									<span asp-validation-for="User.UserIdentification" class="text-danger"></span>
+									<label for="UsuarioIdentificacion">Identificación</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3">
+							<div class="col-md-6">
+								<div class="form-floating">
+									<input required asp-for="User.UserAlias" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
+									<span asp-validation-for="User.UserAlias" class="text-danger"></span>
+									<label for="UsuarioAlias">Alias Usuario</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required type="email" asp-for="User.UserEmail" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+									<span asp-validation-for="User.UserEmail" class="text-danger"></span>
+									<label for="UsuarioCorreo">Correo</label>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+
+									<select name="UserGender" id="UserGender" asp-for="User.UserGender" class="form-control" oninput="this.value = this.value.toUpperCase()">
+										<option value="1">Masculino</option>
+										<option value="2">Femenino</option>
+									</select>
+
+									<label for="roles">Selecciona un Perfil:</label>
+
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<div class="form-floating">
+										<input required asp-for="Card.CardId" class="form-control" oninput="this.value = this.value.toUpperCase()" readonly="readonly" />
+										<span asp-validation-for="Card.CardId" class="text-danger"></span>
+										<label for="CardType">Tipo Tarjeta</label>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="Card.CardNumber" class="form-control" oninput="this.value = this.value.toUpperCase()" type="number" />
+									<span asp-validation-for="Card.CardNumber" class="text-danger"></span>
+									<label for="NumeroTarjeta">NumeroTarjeta</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="Password.Password" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+									<span asp-va lidation-for="Password.Password" class="text-danger"></span>
+									<label for="Password">Password</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="mt-4 mb-0">
+							<div class="d-grid"><input type="submit" value="Guardar Cambios" class="btn btn-primary btn-block" /></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+@*
+<h1>Edit</h1>
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="UserId" />
+            <div class="form-group">
+                <label asp-for="UserIdentification" class="control-label"></label>
+                <input asp-for="UserIdentification" class="form-control" />
+                <span asp-validation-for="UserIdentification" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserGender" class="control-label"></label>
+                <input asp-for="UserGender" class="form-control" />
+                <span asp-validation-for="UserGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserEmail" class="control-label"></label>
+                <input asp-for="UserEmail" class="form-control" />
+                <span asp-validation-for="UserEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserAlias" class="control-label"></label>
+                <input asp-for="UserAlias" class="form-control" />
+                <span asp-validation-for="UserAlias" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+*@
