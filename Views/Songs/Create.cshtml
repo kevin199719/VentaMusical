@@ -19,15 +19,36 @@
                                     <span asp-validation-for="SongName" class="text-danger"></span>
                                     <label for="UsuarioNombre">Nombre canción</label>
                                 </div>
-                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="SongName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
-                                    <span asp-validation-for="SongName" class="text-danger"></span>
-                                    <label for="UsuarioNombre">Canción2</label>
+                           
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select asp-for="AuthorId" asp-items="@ViewBag.Authors" class="form-control">
+                                        <option value="">Seleccione un autor</option>
+                                    </select>
+                                    <label for="AuthorId">Nombre Autor</label>
+                                </div>
+
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select asp-for="GenderId" asp-items="@ViewBag.Genders" class="form-control">
+                                        <option value="">Seleccione un género</option>
+                                    </select>
+                                    <label for="GenderId">Género</label>
+                                </div>
+
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input required asp-for="SongYear" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="SongYear" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Año</label>
                                 </div>
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input required asp-for="SongName" class="form-control" oninput="this.value = this.value.toUpperCase()" />
-                                    <span asp-validation-for="SongName" class="text-danger"></span>
-                                    <label for="UsuarioNombre">Canción3</label>
+                                    <input required asp-for="SongPrice" class="form-control" oninput="this.value = this.value.toUpperCase()" />
+                                    <span asp-validation-for="SongPrice" class="text-danger"></span>
+                                    <label for="UsuarioNombre">Precio</label>
+                                </div>
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <select asp-for="AlbumeId" asp-items="@ViewBag.Albums" class="form-control">
+                                        <option value="">Seleccione un álbum</option>
+                                    </select>
+                                    <label for="AlbumId">Nombre Álbum</label>
                                 </div>
                             </div>
 
