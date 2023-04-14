@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using VentaMusical.ViewModels;
 using VentaMusical.Models.Entities;
 using Microsoft.CodeAnalysis.VisualBasic.Syntax;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using CreditCardValidator;
 
 namespace VentaMusical.Controllers
 {
@@ -44,8 +46,54 @@ namespace VentaMusical.Controllers
             user.UserName = u.User.UserName;
             user.UserEmail = u.User.UserEmail;
             user.UserGender = u.User.UserGender;
-            var card = await _context.Cards.Where(x => x.CardId == u.Card.CardId).FirstOrDefaultAsync();
-            card.CardNumber = u.Card.CardNumber;
+			var card = await _context.Cards.Where(x => x.CardId == u.Card.CardId).FirstOrDefaultAsync();
+			var userCards = await _context.UsersCards.Where(x => x.UsersCardsId == u.Card.CardId).FirstOrDefaultAsync();
+
+			
+
+			if (card == null)
+            {
+                card = new Card();
+                userCards = new UsersCard();
+
+				card.CardNumber = u.Card.CardNumber;
+
+				if (u.Card.CardNumber.StartsWith("3"))
+				{
+					card.CardType = 1;
+
+				}
+				else if (u.Card.CardNumber.StartsWith("4"))
+				{
+					card.CardType = 2;
+				}
+				else if (u.Card.CardNumber.StartsWith("5"))
+				{
+					card.CardType = 3;
+				}
+				else
+				{
+					card.CardType = 4;
+				}
+				card.CardCvv = u.Card.CardCvv;
+				card.CardExpiration = u.Card.CardExpiration;
+				card.CardState = true;
+
+				_context.Cards.Add(card);
+				await _context.SaveChangesAsync();
+
+				userCards.CardId = card.CardId;
+                userCards.UserId = u.User.UserId;
+                userCards.UsersCardsState = true;
+                
+                
+                _context.UsersCards.Add(userCards);
+			}
+            else
+            {
+				card.CardNumber = u.Card.CardNumber;
+			}
+         
 
             if (u.Card.CardNumber.StartsWith("3"))
             {
@@ -65,11 +113,17 @@ namespace VentaMusical.Controllers
                 card.CardType = 4;
             }
 
-            var password = await _context.UserPasswords.Where(x => x.PasswordId == u.Password.PasswordId).FirstOrDefaultAsync();
+			card.CardCvv = u.Card.CardCvv;
+            card.CardExpiration = u.Card.CardExpiration;
+            card.CardState = true;
+
+			var password = await _context.UserPasswords.Where(x => x.PasswordId == u.Password.PasswordId).FirstOrDefaultAsync();
             password.Password = u.Password.Password;
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
+
+
 
     }
 

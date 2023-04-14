@@ -79,9 +79,9 @@
 						<div class="row mb-3">
 							<div class="col-md-6">
 								<div class="form-floating mb-3 mb-md-0">
-									<input required asp-for="Card.CardNumber" class="form-control" oninput="this.value = this.value.toUpperCase()" type="number" />
+									<input required asp-for="Card.CardNumber" class="form-control" oninput="this.value = this.value.toUpperCase()" id="creditcard" placeholder="XXXX-XXXX-XXXX" pattern="\d{4}-\d{4}-\d{4}" />
 									<span asp-validation-for="Card.CardNumber" class="text-danger"></span>
-									<label for="NumeroTarjeta">NumeroTarjeta</label>
+									<label for="NumeroTarjeta">Numero Tarjeta formato XXXX-XXXX-XXXX</label>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -89,6 +89,22 @@
 									<input required asp-for="Password.Password" class="form-control" oninput="this.value = this.value.toUpperCase()" />
 									<span asp-va lidation-for="Password.Password" class="text-danger"></span>
 									<label for="Password">Password</label>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="Card.CardCvv" class="form-control" oninput="this.value = this.value.toUpperCase()" type="number" />
+									<span asp-validation-for="Card.CardCvv" class="text-danger"></span>
+									<label for="CVV">CVV</label>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-floating mb-3 mb-md-0">
+									<input required asp-for="Card.CardExpiration" class="form-control" oninput="this.value = this.value.toUpperCase()" inputel type="month" />
+									<span asp-va lidation-for="Card.CardExpiration" class="text-danger"></span>
+									<label for="Expiracion">Fecha de Expiracion</label>
 								</div>
 							</div>
 						</div>
