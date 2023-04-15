@@ -9,161 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VentaMusical
 build_property.RootNamespace = VentaMusical
-build_property.ProjectDir = C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio\
+build_property.ProjectDir = C:\Users\Kevin\Desktop\venta\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Pruebas\Desktop\Proyecto Progra Avanzada\ProyectoRepositorio
+build_property.MSBuildProjectDirectory = C:\Users\Kevin\Desktop\venta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Access/AccessDenied.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Access/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Access/Login.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/CreateClient.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/CreateClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2xpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Admin/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Albumes/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Albumes/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Albumes/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Albumes/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Albumes/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Albumes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Authors/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Authors/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Authors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Authors/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Authors/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Authors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Authors/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Clients/IndexClients.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Clients/IndexClients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleENsaWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Genders/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Genders/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Genders/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Genders/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Genders/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Genders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/ManageUsers/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/ManageUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Sales/Car.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Sales/Car.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcQ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Sales/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Sales/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Shared/Error.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Shared/LayoutClient.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/LayoutClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dENsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Users2/Create.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Songs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Songs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Songs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Songs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Songs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Users2/Delete.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Users2/Details.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Users2/Edit.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Users2/Index.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Users2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnMyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/_ViewImports.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/_ViewStart.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pruebas/Desktop/Proyecto Progra Avanzada/ProyectoRepositorio/Views/Shared/_Layout.cshtml]
+[C:/Users/Kevin/Desktop/venta/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rnzpgyv6r2
