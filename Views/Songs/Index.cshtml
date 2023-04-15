@@ -1,0 +1,80 @@
+﻿@model IEnumerable<VentaMusical.Models.Entities.Song>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+	<div class="card mb-4">
+		<div class="card-header">
+			<i class="fas fa-table me-1"></i>
+			Canciones
+		</div>
+		<div class="container-sm">
+			<button type="button" class="btn btn-primary" onclick="location.href= '@Url.Action("Create", "Songs")'">
+				Crear canción
+			</button>
+		</div>
+
+		<div class="card-body">
+			<table id="datatablesSimple">
+				<thead>
+					<tr>
+						<th>Nombre canción</th>
+						<th>Autor</th>
+						<th>Album</th>
+						<th>Año</th>
+						<th>Precio</th>
+						<th>Editar</th>
+						<th>Eliminar</th>
+
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th>Nombre canción</th>
+						<th>Autor</th>
+						<th>Album</th>
+						<th>Año</th>
+						<th>Precio</th>
+						<th>Editar</th>
+						<th>Eliminar</th>
+					</tr>
+				</tfoot>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>
+								@Html.DisplayFor(modelItem => item.SongName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Author.AuthorName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Albume.AlbumeName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.SongYear)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.SongPrice)
+							</td>
+
+							<td>
+								<a asp-action="Edit" asp-route-id="@item.SongId"><i class="bi bi-pencil-square"></i></a>
+								@*<a asp-action="Details" asp-route-id="@item.UsuarioId">Details</a>
+							<a asp-action="Delete" asp-route-id="@item.UsuarioId">Delete</a>*@
+							</td>
+
+							<td>
+								<a asp-action="Delete" asp-route-id="@item.SongId"><i style="color:orangered" class="bi bi-trash3-fill"></i></a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
