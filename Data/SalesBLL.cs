@@ -7,7 +7,7 @@ namespace VentaMusical.Data
 {
     public class SalesBLL
     {
-        public static string connectionString = "Server=LAPTOP-0HCSKVHD;Database=VentaMusical;Trusted_Connection=True;TrustServerCertificate=True";
+        public static string connectionString = "Server=DESKTOP-TP7IJQ3;Database=VentaMusical;Trusted_Connection=True;TrustServerCertificate=True";
 
         public static List<SongModel> getSongs(string SongName, string AlbumeName, string AuthorName, string GenderDescription)
         {
