@@ -10,7 +10,6 @@ using VentaMusical.ViewModels;
 using VentaMusical.Models.Entities;
 using Microsoft.CodeAnalysis.VisualBasic.Syntax;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
-using CreditCardValidator;
 
 namespace VentaMusical.Controllers
 {
